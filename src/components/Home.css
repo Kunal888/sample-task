@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+main {
+    background-image: url('../images/img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+#top-div {
+    text-align: end;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-right: 3em;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#mid-div {
+    background-color: #fff;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    border-radius: 3em;
+    margin-bottom: 2em;
+}
+
+#main-div a {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+#main-div ul {
+    display: flex;
+    list-style: none;
+    padding: 0.3em;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#main-div ul li {
+    display: block;
+}
+
+#search-icon {
+    width: auto;
+    height: auto;
+    background-color: #4400ff;
+    border-radius: 7em;
+    padding: 1em;
+}
+
+#bottom-div {
+    width: 20vw;
+    font-family: serif;
+}
+
+#bottom-div h1 {
+    font-size: 6em;
+}
+
+#bottom-div button {
+    padding: 0.5em;
+    border-radius: 1em;
+    border: none;
+}
+
+.display {
+    margin: 3em;
+}
+
+.display h1 {
+    text-align: left;
+    margin: 1em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.card{
+    width: fit-content;
+    margin: 1em;
+}
+
+.card img {
+    width: 40vw;    
+    box-shadow: 0.5em 1em 1em #888888;;
+}
+
+.card h2 {
+    text-align: left;
+    margin: 1em;
+}
+
+footer{
+    height: 25vh;
+    background-color: #c5c5c5;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0.3em;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer ul li {
+    margin-top: 2em;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #000;
+}
